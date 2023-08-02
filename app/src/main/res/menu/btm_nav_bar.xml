@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/miHome"
+        android:title="Home"
+        
+        android:icon="@drawable/home_select"/>
+    <item
+        android:id="@+id/miSearch"
+        android:title="Search"
+        android:icon="@drawable/search_select"/>
+    <item
+        android:id="@+id/vide"
+        android:enabled="false"
+        android:title="" />
+
+    <item
+        android:id="@+id/miShopping"
+        android:title="Shop"
+        android:icon="@drawable/shopping_select"/>
+    <item
+        android:id="@+id/miUser"
+        android:title="Profil"
+        android:icon="@drawable/user_select"/>
+</menu>
