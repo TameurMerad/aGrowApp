@@ -14,18 +14,6 @@
         >
 
 
-        <TextView
-            android:id="@+id/textView"
-            android:background="@drawable/tv_backg"
-            android:padding="15dp"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="This is Home Page "
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            />
     </FrameLayout>
 
 
@@ -44,12 +32,11 @@
         app:fabCradleRoundedCornerRadius="50dp">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/btmNavBar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
             android:background="@android:color/transparent"
-
-            android:clipToOutline="false"
             android:outlineSpotShadowColor="@android:color/transparent"
             app:backgroundTint="@color/btmNav"
             app:itemIconTint="#9DB2CE"

@@ -3,7 +3,6 @@
     <item
         android:id="@+id/miHome"
         android:title="Home"
-        
         android:icon="@drawable/home_select"/>
     <item
         android:id="@+id/miSearch"
