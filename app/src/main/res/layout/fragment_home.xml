@@ -6,7 +6,22 @@
     android:layout_height="match_parent"
     android:background="#131313"
     tools:context=".homeFrag">
+<com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:gravity="center"
+    android:background="@color/btmNav">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="My App"
+        android:textColor="@color/myBlue"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+</com.google.android.material.appbar.AppBarLayout>
 
     <TextView
         android:id="@+id/textView"

@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#131313"
-
         >
 
 
@@ -28,7 +27,6 @@
         android:padding="1dp"
         app:backgroundTint="@color/btmNav"
         app:fabCradleMargin="8dp"
-
         app:fabCradleRoundedCornerRadius="50dp">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -44,13 +42,15 @@
             app:itemPaddingTop="13dp"
             app:itemRippleColor="@android:color/transparent"
             app:itemTextColor="#9DB2CE"
-            app:labelVisibilityMode="labeled"
+
             app:menu="@menu/btm_nav_bar" />
 
 
     </com.google.android.material.bottomappbar.BottomAppBar>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_shop"

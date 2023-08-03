@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.recyclerviewapptest.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationBarView
 
 class MainActivity : AppCompatActivity() {
@@ -16,6 +17,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
+
+        setTheme(R.style.Theme_RecyclerViewAppTest)
         setContentView(R.layout.activity_main)
 
         replaceFragment(homeFrag())
@@ -30,7 +33,10 @@ class MainActivity : AppCompatActivity() {
         }
            true
         }
+findViewById<FloatingActionButton>(R.id.fab).setOnClickListener(){
+    Toast.makeText(this, "Floating action button clicked", Toast.LENGTH_SHORT).show()
 
+}
 
     }
 
