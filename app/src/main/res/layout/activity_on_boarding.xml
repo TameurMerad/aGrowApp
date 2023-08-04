@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1E1E1E"
+    android:background="#fff"
     tools:context=".onBoardingActivity"
 
     >
@@ -21,14 +21,15 @@
 
 
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
 
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:text="Next"
         android:layout_margin="20dp"
-        android:backgroundTint="@color/myBlue"
+        android:background="@drawable/on_boarding_btn"
+        app:backgroundTint="@color/greenTwo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

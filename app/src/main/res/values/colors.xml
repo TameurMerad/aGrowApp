@@ -10,4 +10,8 @@
     <color name="btmNav">#1E1E1E</color>
 
     <color name="myBlue">#9DB2CE</color>
+    <color name="greenOne">#EAFFE4</color>
+    <color name="greenThree">#005F0F</color>
+    <color name="greenTwo">#62C370</color>
+
 </resources>

@@ -10,7 +10,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:background="#1E1E1E"
             android:orientation="vertical"
             android:gravity="center">
             <ImageView
@@ -27,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:text="this is the first Frag"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold"
                 />
@@ -38,7 +37,7 @@
                 android:gravity="center"
                 android:layout_height="wrap_content"
                 android:text="Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif v "
-                android:textColor="@color/white" />
+                android:textColor="@color/black" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
     </FrameLayout>

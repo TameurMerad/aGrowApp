@@ -5,19 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+
     <FrameLayout
         android:id="@+id/flFrsgment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#131313"
-        >
+        android:background="@color/white">
 
 
     </FrameLayout>
-
-
-
-
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomNavigationView"
@@ -25,7 +22,7 @@
         android:layout_height="67dp"
         android:layout_gravity="bottom"
         android:padding="1dp"
-        app:backgroundTint="@color/btmNav"
+        app:backgroundTint="@color/greenOne"
         app:fabCradleMargin="8dp"
         app:fabCradleRoundedCornerRadius="50dp">
 
@@ -37,11 +34,11 @@
             android:background="@android:color/transparent"
             android:outlineSpotShadowColor="@android:color/transparent"
             app:backgroundTint="@color/btmNav"
-            app:itemIconTint="#9DB2CE"
+            app:itemIconTint="@color/greenTwo"
             app:itemPaddingBottom="10dp"
             app:itemPaddingTop="13dp"
             app:itemRippleColor="@android:color/transparent"
-            app:itemTextColor="#9DB2CE"
+            app:itemTextColor="@color/greenTwo"
 
             app:menu="@menu/btm_nav_bar" />
 
@@ -53,8 +50,9 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_shop"
-        app:backgroundTint="#9DB2CE"
+        android:src="@drawable/ic_edit"
+
+        app:backgroundTint="@color/greenTwo"
         app:layout_anchor="@id/bottomNavigationView" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
