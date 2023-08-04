@@ -119,10 +119,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="12dp"
-                    android:text="CONTACT"
+                    android:text="   CONTRIBUTE   "
                     android:textStyle="bold"
                     android:textColor="@color/greenThree"
-                    android:textSize="15dp"
+                    android:textSize="18sp"
                     />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -226,9 +226,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="CONTACT"
+                    android:text="   CONTACT   "
                     android:textColor="@color/greenThree"
-                    android:textSize="15dp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -325,10 +325,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="CONTACT"
+                    android:text="   CONTACT   "
                     android:textStyle="bold"
                     android:textColor="@color/greenThree"
-                    android:textSize="15dp"
+                    android:textSize="18sp"
                     />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -416,10 +416,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="12dp"
-                    android:text="CONTACT"
+                    android:text="   CONTACT   "
                     android:textStyle="bold"
                     android:textColor="@color/greenThree"
-                    android:textSize="15dp"
+                    android:textSize="18sp"
                     />
             </androidx.appcompat.widget.LinearLayoutCompat>
 
