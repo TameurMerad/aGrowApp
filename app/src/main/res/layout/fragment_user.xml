@@ -1,26 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#131313"
+    android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".UserFrag">
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:background="@drawable/tv_backg"
-        android:padding="15dp"
-        android:layout_width="wrap_content"
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:padding="5dp"
+                android:layout_gravity="center_horizontal"
+
+                >
+
+
+            <ImageView
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                android:src="@drawable/pic_profil"
+                android:layout_gravity="center"
+
+                />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profil_pic_change"
+                    android:layout_gravity="bottom"/>
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tameur Merad"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zawali"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+                android:textSize="15dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/starts"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+
+    android:gravity="center">
+
+    <android.widget.Button
+        android:id="@+id/profilBtnPosts"
+        android:layout_width="93dp"
         android:layout_height="wrap_content"
-        android:text="This is User Page "
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="Posts"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/profil_btns_selected"/>
+    <android.widget.Button
+        android:id="@+id/profilBtnExperience"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="Experience"
+        android:background="@drawable/profil_btns"/>
+    <android.widget.Button
+        android:id="@+id/profilBtnContact"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:background="@drawable/profil_btns"/>
+</LinearLayout>
+
+
+
+            <FrameLayout
+                android:id="@+id/profilFlFrag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

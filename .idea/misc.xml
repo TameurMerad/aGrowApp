@@ -10,9 +10,13 @@
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/ic_edit.xml" value="0.2445" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/ic_home.xml" value="0.287" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/ic_home_filled.xml" value="0.287" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/ic_shop.xml" value="0.2445" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/ic_shop_splash.xml" value="0.2445" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/ic_user.xml" value="0.2445" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/menu.xml" value="0.287" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/on_boarding_btn.xml" value="0.2445" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/profil_btns.xml" value="0.2445" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/profil_btns_selected.xml" value="0.2445" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/ripple_effect.xml" value="0.2445" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/search_select.xml" value="0.287" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/shopping_select.xml" value="0.287" />
@@ -27,6 +31,9 @@
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_pop_up.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_pop_up2.xml" value="0.346875" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_pop_up_frag_two.xml" value="0.346875" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_profil_contact.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_profil_experience.xml" value="0.346875" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_profil_posts.xml" value="0.346875" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_search.xml" value="0.346875" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_sec.xml" value="0.346875" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_shop.xml" value="0.346875" />

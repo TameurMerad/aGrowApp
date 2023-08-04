@@ -6,7 +6,7 @@
         android:icon="@drawable/home_select"/>
     <item
         android:id="@+id/miSearch"
-        android:title="Search"
+        android:title="My Projects"
         android:icon="@drawable/search_select"/>
     <item
         android:id="@+id/vide"
@@ -15,7 +15,7 @@
 
     <item
         android:id="@+id/miShopping"
-        android:title="Shop"
+        android:title="Notification"
         android:icon="@drawable/shopping_select"/>
     <item
         android:id="@+id/miUser"
