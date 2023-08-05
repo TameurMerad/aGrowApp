@@ -35,7 +35,7 @@ class onBoardingActivity : AppCompatActivity() {
 
             else {
 //                Toast.makeText(this,"continue CLICKED", Toast.LENGTH_SHORT).show()
-                startActivity(Intent(this, MainActivity::class.java))
+                startActivity(Intent(this, SignIn::class.java))
             }}
     }
 

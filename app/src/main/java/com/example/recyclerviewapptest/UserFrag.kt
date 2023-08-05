@@ -33,6 +33,12 @@ class UserFrag : Fragment (){
             posts.setBackgroundResource(R.drawable.profil_btns)
             experience.setBackgroundResource(R.drawable.profil_btns)
         }
+        experience.setOnClickListener(){
+            experience.setBackgroundResource(R.drawable.profil_btns_selected)
+            replaceFragment(ProfilExperienceFrag())
+            posts.setBackgroundResource(R.drawable.profil_btns)
+            contact.setBackgroundResource(R.drawable.profil_btns)
+        }
 
 
 

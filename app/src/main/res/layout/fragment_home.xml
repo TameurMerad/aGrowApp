@@ -18,9 +18,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="FLAHTI"
+            android:text="aGrow"
             android:textColor="@color/greenTwo"
-            android:textSize="25sp"
+            android:textSize="28sp"
             android:textStyle="bold" />
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -29,8 +29,7 @@
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="70dp
-"
+        android:layout_marginTop="70dp"
 
         >
     <LinearLayout

@@ -30,6 +30,7 @@
         android:layout_margin="20dp"
         android:background="@drawable/on_boarding_btn"
         app:backgroundTint="@color/greenTwo"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
