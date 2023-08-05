@@ -14,6 +14,9 @@
         android:theme="@style/splash_screen"
         tools:targetApi="31">
         <activity
+            android:name=".AddPost"
+            android:exported="false" />
+        <activity
             android:name=".SignIn"
             android:exported="false" />
         <activity

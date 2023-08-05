@@ -1,5 +1,6 @@
 package com.example.recyclerviewapptest
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.view.MenuItem
@@ -34,8 +35,8 @@ class MainActivity : AppCompatActivity() {
            true
         }
 findViewById<FloatingActionButton>(R.id.fab).setOnClickListener(){
-    Toast.makeText(this, "Floating action button clicked", Toast.LENGTH_SHORT).show()
-
+//    Toast.makeText(this, "Floating action button clicked", Toast.LENGTH_SHORT).show()
+    startActivity(Intent(this, AddPost::class.java))
 }
 
     }

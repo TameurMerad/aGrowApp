@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/sign_in_bg"
-    android:paddingTop="290dp"
+    android:paddingTop="278dp"
     tools:context=".SignIn">
 
     <LinearLayout
@@ -41,6 +41,7 @@
                 android:singleLine="true"
                 android:textColor="@color/greenTwo"
                 android:textSize="14dp"
+                android:textCursorDrawable="@color/greenTwo"
 
                 />
 
@@ -102,7 +103,7 @@
                 android:singleLine="true"
                 android:textColor="@color/greenTwo"
                 android:textSize="14dp"
-
+                android:textCursorDrawable="@color/greenTwo"
                 />
 
 
@@ -154,7 +155,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="15dp"
             android:layout_marginBottom="40dp"
             android:gravity="center"
             android:orientation="horizontal">
