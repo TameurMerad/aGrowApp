@@ -19,7 +19,7 @@ class UserFrag : Fragment (){
         val posts = view.findViewById<Button>(R.id.profilBtnPosts)
         val contact = view.findViewById<Button>(R.id.profilBtnContact)
         val experience = view.findViewById<Button>(R.id.profilBtnExperience)
-        replaceFragment(ProfilPostsFrag())
+        replaceFragment(ProfilExperienceFrag())
 
         posts.setOnClickListener(){
             posts.setBackgroundResource(R.drawable.profil_btns_selected)

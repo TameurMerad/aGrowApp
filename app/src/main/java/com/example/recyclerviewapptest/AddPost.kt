@@ -2,6 +2,7 @@ package com.example.recyclerviewapptest
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
 import android.widget.Button
@@ -11,6 +12,8 @@ class AddPost : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_post)
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+
         val items = listOf("Search for consulting", "Project Idea", "Investment","Problem","Other")
         val adapter = ArrayAdapter(this, R.layout.list_item, items)
         findViewById<AutoCompleteTextView>(R.id.postAutoCompleteV).setAdapter(adapter)

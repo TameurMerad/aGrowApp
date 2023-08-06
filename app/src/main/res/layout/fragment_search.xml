@@ -33,53 +33,385 @@
             android:orientation="vertical"
             >
             <androidx.cardview.widget.CardView
+                android:id="@+id/projectCardViewBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="15dp"
-                android:backgroundTint="#C8C8C8"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
                 app:contentPadding="15dp"
+                app:cardElevation="15dp"
+                android:backgroundTint="@color/greenOne"
                 >
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="57dp"
-                        android:layout_height="57dp"
-                        android:src="@drawable/profil_pic"/>
+                    android:orientation="vertical">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="18dp"
-                            android:text="Hamid Project"
+                            android:gravity="center"
+                            android:text="El Rahma Filaha"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
                             android:textColor="@color/black"
-                            android:textSize="17dp"
-                            android:textStyle="bold" />
+                            android:layout_weight="1"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="18sp"
-                            android:layout_marginEnd="18sp"
-                            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat luctus lacus, in convallis metus hendrerit eu. "
-                            android:textColor="@color/black"
-                            android:textSize="15dp" />
+                            android:gravity="center"
+                            android:text="Ain Fakroun"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/greenTwo"
+                            android:layout_weight="1"/>
                     </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15sp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="My Balance"
+                            android:textStyle=""
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_weight="3"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="437.0$"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="#454545"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:layout_marginStart="4dp"
+                            android:text="10.7%"
+                            android:textStyle=""
+                            android:textSize="12sp"
+                            android:textColor="@color/greenTwo"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:text="contributers"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15sp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/profil_pic"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/profil_pic"/><ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/profil_pic"/><ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/profil_pic"/><ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/profil_pic"/>
+
+
+
+                    </LinearLayout>
+
+
                 </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/projectCardViewBtn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                app:contentPadding="15dp"
+                app:cardElevation="15dp"
+                android:backgroundTint="@color/greenOne"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="El Rahma Filaha"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Ain Fakroun"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/greenTwo"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15sp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="My Balance"
+                            android:textStyle=""
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_weight="3"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="437.0$"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="#454545"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:layout_marginStart="4dp"
+                            android:text="10.7%"
+                            android:textStyle=""
+                            android:textSize="12sp"
+                            android:textColor="@color/greenTwo"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:text="contributers"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                      />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15sp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/profil_pic"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/profil_pic"/><ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/profil_pic"/><ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/profil_pic"/><ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/profil_pic"/>
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/projectCardViewBtn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="50dp"
+                app:contentPadding="15dp"
+                app:cardElevation="15dp"
+                android:backgroundTint="@color/greenOne"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="El Rahma Filaha"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Ain Fakroun"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/greenTwo"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15sp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="My Balance"
+                            android:textStyle=""
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_weight="3"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="437.0$"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="#454545"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:layout_marginStart="4dp"
+                            android:text="10.7%"
+                            android:textStyle=""
+                            android:textSize="12sp"
+                            android:textColor="@color/greenTwo"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:text="contributers"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                         />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15sp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/profil_pic"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/profil_pic"/><ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/profil_pic"/><ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/profil_pic"/><ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/profil_pic"/>
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
 
 
             </androidx.cardview.widget.CardView>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="70dp"/>
+
         </LinearLayout>
     </ScrollView>
 

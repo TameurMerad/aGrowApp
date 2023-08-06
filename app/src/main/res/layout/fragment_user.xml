@@ -13,7 +13,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -74,14 +75,14 @@
     android:gravity="center">
 
     <android.widget.Button
-        android:id="@+id/profilBtnPosts"
+        android:id="@+id/profilBtnExperience"
         android:layout_width="93dp"
         android:layout_height="wrap_content"
-        android:text="Posts"
+        android:text="Infos"
         android:layout_marginEnd="10dp"
         android:background="@drawable/profil_btns_selected"/>
     <android.widget.Button
-        android:id="@+id/profilBtnExperience"
+        android:id="@+id/profilBtnPosts"
         android:layout_width="93dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
