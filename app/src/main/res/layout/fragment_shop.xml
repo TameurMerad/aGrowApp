@@ -50,7 +50,7 @@
             <ImageView
                 android:layout_width="57dp"
                 android:layout_height="57dp"
-                android:src="@drawable/profil_pic"/>
+                android:src="@drawable/kahloucha"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="18dp"
-                        android:text="Hamid Project"
+                        android:text="Yasseur Boutouba"
                         android:textColor="@color/black"
                         android:textSize="17dp"
                         android:textStyle="bold" />
@@ -68,7 +68,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="18sp"
                         android:layout_marginEnd="18sp"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat luctus lacus, in convallis metus hendrerit eu. "
+                        android:text="Join us at the upcoming Farming Tech Expo this weekend! Discover the latest advancements in agriculture, including our Smart Irrigation Solution. Don't miss out on this exciting event! 🚜🌱"
                         android:textColor="@color/black"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -94,7 +94,7 @@
                 <ImageView
                     android:layout_width="57dp"
                     android:layout_height="57dp"
-                    android:src="@drawable/profil_pic"/>
+                    android:src="@drawable/zla_pic"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -103,7 +103,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="18dp"
-                        android:text="Hamid Project"
+                        android:text="Nada Abada"
                         android:textColor="@color/black"
                         android:textSize="17dp"
                         android:textStyle="bold" />
@@ -112,7 +112,51 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="18sp"
                         android:layout_marginEnd="18sp"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat luctus lacus, in convallis metus hendrerit eu. "
+                        android:text="Learn how to optimize water usage in agriculture with our Smart Irrigation Solution"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="15dp"
+            android:backgroundTint="#E7EFE3"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            app:contentPadding="15dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tfl_pic"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="18dp"
+                        android:text="Salim Benslimane"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="18sp"
+                        android:layout_marginEnd="18sp"
+                        android:text="Thanks to your generous contributions, we've made great strides in funding our Smart Irrigation project. Let's keep the momentum going and reach our goal together! Every bit counts. 💪💚"
                         android:textColor="@color/black"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -138,7 +182,7 @@
                 <ImageView
                     android:layout_width="57dp"
                     android:layout_height="57dp"
-                    android:src="@drawable/profil_pic"/>
+                    android:src="@drawable/lhaj_pic"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -147,7 +191,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="18dp"
-                        android:text="Hamid Project"
+                        android:text="Hamid Chelouah"
                         android:textColor="@color/black"
                         android:textSize="17dp"
                         android:textStyle="bold" />
@@ -156,7 +200,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="18sp"
                         android:layout_marginEnd="18sp"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat luctus lacus, in convallis metus hendrerit eu. "
+                        android:text="Preliminary tests of our Smart Irrigation Solution show promising results in boosting crop yields by up to 20%! Full report and data analysis available on the aGrow website. 📈🌾"
                         android:textColor="@color/black"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -182,7 +226,7 @@
                 <ImageView
                     android:layout_width="57dp"
                     android:layout_height="57dp"
-                    android:src="@drawable/profil_pic"/>
+                    android:src="@drawable/zla_pic"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -191,7 +235,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="18dp"
-                        android:text="Hamid Project"
+                        android:text="Nada Abada"
                         android:textColor="@color/black"
                         android:textSize="17dp"
                         android:textStyle="bold" />
@@ -200,7 +244,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="18sp"
                         android:layout_marginEnd="18sp"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat luctus lacus, in convallis metus hendrerit eu. "
+                        android:text="Learn how to optimize water usage in agriculture with our Smart Irrigation Solution"
                         android:textColor="@color/black"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -226,7 +270,7 @@
                 <ImageView
                     android:layout_width="57dp"
                     android:layout_height="57dp"
-                    android:src="@drawable/profil_pic"/>
+                    android:src="@drawable/zla_pic"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -235,7 +279,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="18dp"
-                        android:text="Hamid Project"
+                        android:text="Nada Abada"
                         android:textColor="@color/black"
                         android:textSize="17dp"
                         android:textStyle="bold" />
@@ -244,51 +288,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="18sp"
                         android:layout_marginEnd="18sp"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat luctus lacus, in convallis metus hendrerit eu. "
-                        android:textColor="@color/black"
-                        android:textSize="15dp" />
-                </LinearLayout>
-            </LinearLayout>
-
-
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardElevation="15dp"
-            app:cardCornerRadius="15dp"
-            android:backgroundTint="#E7EFE3"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginStart="10dp"
-            app:contentPadding="15dp"
-            >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <ImageView
-                    android:layout_width="57dp"
-                    android:layout_height="57dp"
-                    android:src="@drawable/profil_pic"/>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="18dp"
-                        android:text="Hamid Project"
-                        android:textColor="@color/black"
-                        android:textSize="17dp"
-                        android:textStyle="bold" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="18sp"
-                        android:layout_marginEnd="18sp"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat luctus lacus, in convallis metus hendrerit eu. "
+                        android:text="Learn how to optimize water usage in agriculture with our Smart Irrigation Solution"
                         android:textColor="@color/black"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -297,7 +297,8 @@
 
         </androidx.cardview.widget.CardView>
 
-<TextView
+
+        <TextView
         android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="70dp"/>

@@ -25,7 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:text="this is the first Frag"
+                android:text="Community Communication"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold"
@@ -36,7 +36,7 @@
                 android:layout_width="271dp"
                 android:gravity="center"
                 android:layout_height="wrap_content"
-                android:text="Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif v "
+                android:text="Welcome to our vibrant community! Here, we foster open communication among farmers, enthusiasts, and experts. Share experiences, ask questions, and connect with like-minded individuals to exchange insights. Let's cultivate a stronger community bond!"
                 android:textColor="@color/black" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>

@@ -32,7 +32,8 @@
             <ImageView
                 android:layout_width="145dp"
                 android:layout_height="145dp"
-                android:src="@drawable/pic_profil"
+                android:src="@drawable/tameur_pic"
+
                 android:layout_gravity="center"
 
                 />
@@ -54,7 +55,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Zawali"
+                android:text="Expert"
                 android:textColor="@color/black"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="4dp"
@@ -87,7 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
 
-        android:text="Experience"
+        android:text="Posts"
         android:background="@drawable/profil_btns"/>
     <android.widget.Button
         android:id="@+id/profilBtnContact"

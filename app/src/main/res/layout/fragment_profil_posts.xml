@@ -44,11 +44,11 @@
 
                         <ImageView
 
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_marginLeft="3dp"
                             android:layout_marginTop="0dp"
-                            android:src="@drawable/profil_pic" />
+                            android:src="@drawable/tameur_pic" />
 
                         <androidx.appcompat.widget.LinearLayoutCompat
                             android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Fatima Adjissi"
+                                android:text="Tameur Merad"
                                 android:textColor="@color/black"
                                 android:textSize="20dp"
                                 android:textStyle="bold" />
@@ -67,7 +67,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Zawali"
+                                android:text="Expert"
                                 android:textColor="@color/black"
 
                                 android:textSize="15dp" />
@@ -84,7 +84,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="18sp"
                         android:layout_marginEnd="18sp"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat luctus lacus, in convallis metus hendrerit eu. "
+                        android:text="Join us in our exciting venture to develop Farming Trucks Innovation! 🌟🌱 Our goal is to design state-of-the-art trucks tailored for modern agriculture. These trucks will boast increased payload capacity, smart automation, and eco-friendly features to optimize farm-to-market transportation. With your support, we can revolutionize farming practices for a greener, more efficient future! 🚚🌾 #FarmingTrucks #InnovationInAgri #SustainableTransport"
                         android:textColor="@color/black"
                         android:textSize="15dp" />
 
@@ -98,7 +98,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/pic1" />
+                            android:src="@drawable/pic2" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -109,53 +109,54 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="15dp"
                 android:backgroundTint="#FFFFFF"
-
                 >
+
                 <androidx.appcompat.widget.LinearLayoutCompat
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
                         android:layout_margin="15dp"
-                        >
+                        android:orientation="horizontal">
+
                         <ImageView
 
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="0dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_marginLeft="3dp"
-                            android:src="@drawable/profil_pic"/>
+                            android:layout_marginTop="0dp"
+                            android:src="@drawable/tameur_pic" />
+
                         <androidx.appcompat.widget.LinearLayoutCompat
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:orientation="vertical">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Yacine ElChorfi"
-                                android:textStyle="bold"
+                                android:text="Tameur Merad"
+                                android:textColor="@color/black"
                                 android:textSize="20dp"
-                                android:textColor="@color/black"/>
+                                android:textStyle="bold" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Zawali"
+                                android:text="Expert"
                                 android:textColor="@color/black"
 
-                                android:textSize="15dp"
-                                />
+                                android:textSize="15dp" />
 
                         </androidx.appcompat.widget.LinearLayoutCompat>
-
 
 
 
@@ -165,29 +166,30 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat luctus lacus, in convallis metus hendrerit eu. "
-                        android:layout_marginEnd="18sp"
-                        android:textColor="@color/black"
                         android:layout_marginStart="18sp"
-                        android:textSize="15dp"
-                        />
+                        android:layout_marginEnd="18sp"
+                        android:text="Join our vision to innovate potato farming in Oued Souf! 🏞️💧 Your support will empower us to utilize plastic houses and eco-friendly practices for sustainable agriculture. Let's grow together and make a positive impact on the community! 🚀🌾 #InvestInAgri #PotatoFarming #SustainableOuedSouf"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
                         app:cardCornerRadius="17dp">
+
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/pic2"
-                            android:scaleType="centerCrop"/>
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/pic3" />
 
 
                     </androidx.cardview.widget.CardView>
 
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
+
 
             </androidx.cardview.widget.CardView>
 

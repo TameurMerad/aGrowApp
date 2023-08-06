@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:text="this is the first Frag"
+        android:text="Consulting Services"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -37,7 +37,7 @@
         android:layout_width="271dp"
         android:gravity="center"
         android:layout_height="wrap_content"
-        android:text="Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif v "
+        android:text="Explore expert consulting services, connect with specialists for valuable guidance. Elevate farming expertise and cultivate a greener, prosperous future. Let's grow smarter, together! "
         android:textColor="@color/black" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

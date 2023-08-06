@@ -25,11 +25,11 @@
             <ImageView
                 android:id="@+id/profilPicBtn"
 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
                 android:layout_marginLeft="3dp"
                 android:layout_marginTop="0dp"
-                android:src="@drawable/profil_pic" />
+                android:src="@drawable/fatima_pic" />
 
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="wrap_content"
@@ -51,7 +51,7 @@
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Zawali"
+                    android:text="Expert"
                     android:textColor="@color/black"
 
                     android:textSize="15dp" />
@@ -66,7 +66,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Problem description : "
+            android:text="Project description : "
             android:textColor="@color/black"
             android:textSize="14dp"
             android:layout_marginStart="18sp"
@@ -78,7 +78,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="18sp"
             android:layout_marginEnd="18sp"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            android:text="Our project introduces a Smart Irrigation Solution that leverages cutting-edge technology to revolutionize crop watering. Using advanced sensors and real-time data analysis, our system delivers precise and efficient irrigation tailored to each plant's specific needs. By optimizing water usage, we aim to increase crop yield, conserve water resources, and promote sustainable farming practices. This innovative technology offers a scalable and adaptable solution for farmers, fostering greener and more productive agriculture. Join us in transforming the future of farming with our Smart Irrigation Solution! 🌾💧🚀 "
             android:textColor="@color/black"
             android:layout_marginBottom="8dp"
 
@@ -93,7 +93,7 @@
                 android:id="@+id/contributionPriceBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Consulting Price : "
+                android:text="Min contributing price : "
                 android:textColor="@color/black"
                 android:textSize="14dp"
                 android:layout_weight="1"
@@ -138,7 +138,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_button2"
                 android:textColor="@color/white"
-                android:text="Contact"/>
+                android:text="contribute"/>
 
 
 

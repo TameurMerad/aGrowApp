@@ -24,12 +24,11 @@
 
                 <ImageView
                     android:id="@+id/profilPicBtn"
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
                     android:layout_marginLeft="3dp"
                     android:layout_marginTop="0dp"
-                    android:src="@drawable/profil_pic" />
+                    android:src="@drawable/said_pic" />
 
                 <androidx.appcompat.widget.LinearLayoutCompat
                     android:layout_width="wrap_content"
@@ -41,7 +40,7 @@
                         android:id="@+id/PersonNameBtn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Fatima Adjissi"
+                        android:text="Said Smith"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:textStyle="bold" />
@@ -51,7 +50,7 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Zawali"
+                        android:text="Farmer"
                         android:textSize="15dp" />
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
@@ -64,7 +63,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Project's Name : "
+                android:text="El Sa3ada farm :"
                 android:textColor="@color/black"
                 android:textSize="14dp"
                 android:layout_marginStart="18sp"
@@ -76,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="18sp"
                 android:layout_marginEnd="18sp"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                android:text="Hey community! 🌱 I'm facing a water distribution challenge on my small farm and looking to hire a knowledgeable consultant to help improve efficiency. If any of you have recommendations or can connect me with a reliable advisor, please reach out through direct messages. Willing to pay for expertise. Your assistance is greatly appreciated! 🚜💧 #Farmers #WaterDistribution"
                 android:textColor="@color/black"
                 android:layout_marginBottom="8dp"
 
@@ -91,7 +90,7 @@
                     android:id="@+id/contributionPriceBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Contribution Price : "
+                    android:text="Consulting Price : "
                     android:textColor="@color/black"
                     android:textSize="14dp"
                     android:layout_weight="1"
@@ -134,7 +133,7 @@
                     android:layout_width="135dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_button2"
-                    android:text="Contribute"/>
+                    android:text="Contact"/>
 
 
 

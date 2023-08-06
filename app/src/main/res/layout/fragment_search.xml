@@ -110,6 +110,7 @@
                             android:textColor="@color/greenTwo"
                             android:layout_weight="1"/>
                     </LinearLayout>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -117,8 +118,7 @@
                         android:layout_marginTop="12dp"
                         android:text="contributers"
                         android:textColor="@color/black"
-                        android:textSize="17dp"
-                        />
+                        android:textSize="17dp" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -126,27 +126,30 @@
                         android:layout_marginTop="15sp"
                         android:orientation="horizontal">
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_weight="1"
-                            android:src="@drawable/profil_pic"/>
+                            android:src="@drawable/mrt_soufi"/>
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_weight="1"
-                            android:src="@drawable/profil_pic"/><ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/profil_pic"/><ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/profil_pic"/><ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/profil_pic"/>
+                            android:src="@drawable/tari_pic"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/fatima_pic"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/said_pic"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/tfl_pic"/>
 
 
 
@@ -163,7 +166,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="15dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginBottom="10dp"
@@ -185,7 +188,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="El Rahma Filaha"
+                            android:text="BATATA ELOUED"
                             android:textStyle="bold"
                             android:textSize="15sp"
                             android:textColor="@color/black"
@@ -194,7 +197,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="Ain Fakroun"
+                            android:text="Oued Souf"
                             android:textStyle="bold"
                             android:textSize="15sp"
                             android:textColor="@color/greenTwo"
@@ -220,7 +223,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="right"
-                            android:text="437.0$"
+                            android:text="358.9$"
                             android:textStyle="bold"
                             android:textSize="18sp"
                             android:textColor="#454545"
@@ -230,12 +233,13 @@
                             android:layout_height="wrap_content"
                             android:gravity="left"
                             android:layout_marginStart="4dp"
-                            android:text="10.7%"
+                            android:text="26.7%"
                             android:textStyle=""
                             android:textSize="12sp"
                             android:textColor="@color/greenTwo"
                             android:layout_weight="1"/>
                     </LinearLayout>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -243,8 +247,7 @@
                         android:layout_marginTop="12dp"
                         android:text="contributers"
                         android:textColor="@color/black"
-                        android:textSize="17dp"
-                      />
+                        android:textSize="17dp" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -252,27 +255,30 @@
                         android:layout_marginTop="15sp"
                         android:orientation="horizontal">
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_weight="1"
-                            android:src="@drawable/profil_pic"/>
+                            android:src="@drawable/mrt_soufi"/>
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_weight="1"
-                            android:src="@drawable/profil_pic"/><ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/profil_pic"/><ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/profil_pic"/><ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/profil_pic"/>
+                            android:src="@drawable/tari_pic"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/fatima_pic"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/said_pic"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/tfl_pic"/>
 
 
 
@@ -289,10 +295,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="15dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginStart="10dp"
-                android:layout_marginBottom="50dp"
+                android:layout_marginBottom="40dp"
                 app:contentPadding="15dp"
                 app:cardElevation="15dp"
                 android:backgroundTint="@color/greenOne"
@@ -362,6 +368,7 @@
                             android:textColor="@color/greenTwo"
                             android:layout_weight="1"/>
                     </LinearLayout>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -369,8 +376,7 @@
                         android:layout_marginTop="12dp"
                         android:text="contributers"
                         android:textColor="@color/black"
-                        android:textSize="17dp"
-                         />
+                        android:textSize="17dp" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -378,27 +384,30 @@
                         android:layout_marginTop="15sp"
                         android:orientation="horizontal">
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_weight="1"
-                            android:src="@drawable/profil_pic"/>
+                            android:src="@drawable/mrt_soufi"/>
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_weight="1"
-                            android:src="@drawable/profil_pic"/><ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/profil_pic"/><ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/profil_pic"/><ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/profil_pic"/>
+                            android:src="@drawable/tari_pic"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/fatima_pic"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/said_pic"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/tfl_pic"/>
 
 
 
@@ -410,6 +419,7 @@
 
 
             </androidx.cardview.widget.CardView>
+
 
 
         </LinearLayout>

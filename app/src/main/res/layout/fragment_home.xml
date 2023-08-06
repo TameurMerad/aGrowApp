@@ -61,22 +61,24 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
                         android:layout_marginLeft="3dp"
                         android:layout_marginTop="0dp"
-                        android:src="@drawable/profil_pic" />
+                        android:layout_weight="1"
+                        android:src="@drawable/said_pic" />
 
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
+                        android:layout_weight="2"
                         android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Yasseur Bouttba"
+                            android:text="Said Smith"
                             android:textColor="@color/black"
                             android:textSize="20dp"
                             android:textStyle="bold" />
@@ -84,7 +86,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Zawali"
+                            android:text="Farmer"
                             android:textColor="@color/black"
 
                             android:textSize="15dp" />
@@ -96,9 +98,10 @@
                         android:id="@+id/followBtn"
                         android:layout_width="70dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="70dp"
                         android:layout_marginTop="10dp"
+                        android:gravity="right"
                         android:text="Follow"
+                        android:layout_weight="3"
                         android:textColor="@color/greenTwo"
                         android:textSize="15dp" />
 
@@ -112,7 +115,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="18sp"
                     android:layout_marginEnd="18sp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat luctus lacus, in convallis metus hendrerit eu. "
+                    android:text="Hey community! 🌱 I'm facing a water distribution challenge on my small farm and looking to hire a knowledgeable consultant to help improve efficiency. If any of you have recommendations or can connect me with a reliable advisor, please reach out through direct messages. Willing to pay for expertise. Your assistance is greatly appreciated! 🚜💧 #Farmers #WaterDistribution"
                     android:textColor="@color/black"
                     android:textSize="15dp" />
 
@@ -122,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="12dp"
-                    android:text="   CONTRIBUTE   "
+                    android:text="   CONTACT   "
                     android:textColor="@color/greenThree"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -154,16 +157,19 @@
 
                     <ImageView
 
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
                         android:layout_marginLeft="3dp"
                         android:layout_marginTop="0dp"
-                        android:src="@drawable/profil_pic" />
+                        android:layout_weight="1"
+                        android:src="@drawable/fatima_pic"
+                         />
 
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
+                        android:layout_weight="2"
                         android:orientation="vertical">
 
                         <TextView
@@ -177,7 +183,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Zawali"
+                            android:text="Expert"
                             android:textColor="@color/black"
 
                             android:textSize="15dp" />
@@ -188,7 +194,8 @@
                         android:id="@+id/followBtn2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="89dp"
+                        android:layout_weight="3"
+                        android:gravity="right"
                         android:layout_marginTop="10dp"
                         android:text="Follow"
                         android:textColor="@color/greenTwo"
@@ -203,7 +210,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="18sp"
                     android:layout_marginEnd="18sp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat luctus lacus, in convallis metus hendrerit eu. "
+                    android:text="We're embarking on a game-changing project to transform agriculture using cutting-edge watering technology. 💦🚀 With your backing, we'll optimize water usage, increase crop yield, and promote sustainable farming practices. Be part of this agricultural revolution! 🌱🌟"
                     android:textColor="@color/black"
                     android:textSize="15dp" />
 
@@ -227,6 +234,100 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:text="   INVEST   "
+                    android:textColor="@color/greenThree"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:backgroundTint="#FFFFFF"
+            app:contentPaddingBottom="20dp"
+            android:layout_margin="13dp"
+            >
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/said_pic" />
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Said Smith"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Farmer"
+                            android:textColor="@color/black"
+
+                            android:textSize="15dp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <TextView
+                        android:id="@+id/followBtn3"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="right"
+                        android:text="Follow"
+                        android:layout_weight="3"
+                        android:textColor="@color/greenTwo"
+                        android:textSize="15dp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18sp"
+                    android:layout_marginEnd="18sp"
+                    android:text="Hey community! 🌱 I'm facing a water distribution challenge on my small farm and looking to hire a knowledgeable consultant to help improve efficiency. If any of you have recommendations or can connect me with a reliable advisor, please reach out through direct messages. Willing to pay for expertise. Your assistance is greatly appreciated! 🚜💧 #Farmers #WaterDistribution"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/helpBtn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
                     android:text="   CONTACT   "
                     android:textColor="@color/greenThree"
                     android:textSize="18sp"
@@ -237,7 +338,6 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="15dp"
@@ -245,56 +345,63 @@
             app:contentPaddingBottom="20dp"
             android:layout_margin="13dp"
             >
+
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
                 <androidx.appcompat.widget.LinearLayoutCompat
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
                     android:layout_margin="15dp"
-                    >
+                    android:orientation="horizontal">
+
                     <ImageView
 
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="0dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
                         android:layout_marginLeft="3dp"
-                        android:src="@drawable/profil_pic"/>
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/fatima_pic"
+                        />
+
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
+                        android:layout_weight="2"
                         android:orientation="vertical">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Yacine ElChorfi"
-                            android:textStyle="bold"
+                            android:text="Fatima Adjissi"
+                            android:textColor="@color/black"
                             android:textSize="20dp"
-                            android:textColor="@color/black"/>
+                            android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Zawali"
+                            android:text="Expert"
                             android:textColor="@color/black"
 
-                            android:textSize="15dp"
-                            />
+                            android:textSize="15dp" />
 
                     </androidx.appcompat.widget.LinearLayoutCompat>
+
                     <TextView
-                        android:id="@+id/followBtn3"
+                        android:id="@+id/followBtn4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
+                        android:layout_weight="3"
+                        android:gravity="right"
+                        android:layout_marginTop="10dp"
                         android:text="Follow"
                         android:textColor="@color/greenTwo"
-                        android:layout_marginTop="10dp"
-                        android:textSize="15dp"
-                        />
-
+                        android:textSize="15dp" />
 
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
@@ -303,133 +410,38 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat luctus lacus, in convallis metus hendrerit eu. "
-                    android:layout_marginEnd="18sp"
-                    android:textColor="@color/black"
                     android:layout_marginStart="18sp"
-                    android:textSize="15dp"
-                    />
+                    android:layout_marginEnd="18sp"
+                    android:text="We're embarking on a game-changing project to transform agriculture using cutting-edge watering technology. 💦🚀 With your backing, we'll optimize water usage, increase crop yield, and promote sustainable farming practices. Be part of this agricultural revolution! 🌱🌟"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
                     app:cardCornerRadius="17dp">
+
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:src="@drawable/pic2"
-                        android:scaleType="centerCrop"/>
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pic1" />
 
 
                 </androidx.cardview.widget.CardView>
-                <TextView
-                    android:id="@+id/helpBtn3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="   CONTACT   "
-                    android:textStyle="bold"
-                    android:textColor="@color/greenThree"
-                    android:textSize="18sp"
-                    />
 
-            </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-
-
-
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="15dp"
-            android:backgroundTint="#FFFFFF"
-            app:contentPaddingBottom="20dp"
-            android:layout_margin="13dp"
-
-            >
-            <androidx.appcompat.widget.LinearLayoutCompat
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-                android:orientation="vertical">
-                <androidx.appcompat.widget.LinearLayoutCompat
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_margin="15dp"
-                    >
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="0dp"
-                        android:layout_marginLeft="3dp"
-                        android:src="@drawable/profil_pic"/>
-                    <androidx.appcompat.widget.LinearLayoutCompat
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:orientation="vertical">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Imad Hbibi"
-                            android:textStyle="bold"
-                            android:textSize="20dp"
-                            android:textColor="@color/black"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Zawali"
-                            android:textColor="@color/black"
-
-                            android:textSize="15dp"
-                            />
-
-                    </androidx.appcompat.widget.LinearLayoutCompat>
-                    <TextView
-                        android:id="@+id/followBtn4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="120dp"
-                        android:text="Follow"
-                        android:textColor="@color/greenTwo"
-                        android:layout_marginTop="10dp"
-                        android:textSize="15dp"
-                        />
-
-
-
-                </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat luctus lacus, in convallis metus hendrerit eu. "
-                    android:layout_marginEnd="18sp"
-                    android:textColor="@color/black"
-                    android:layout_marginStart="18sp"
-                    android:textSize="15dp"
-                    />
                 <TextView
                     android:id="@+id/helpBtn4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="12dp"
-                    android:text="   CONTACT   "
-                    android:textStyle="bold"
+                    android:text="   INVEST   "
                     android:textColor="@color/greenThree"
                     android:textSize="18sp"
-                    />
+                    android:textStyle="bold" />
+
             </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-
 
 
         </androidx.cardview.widget.CardView>

@@ -24,7 +24,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:text="this is the first Frag"
+                android:text="Fund Help"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold"
@@ -35,7 +35,7 @@
                 android:layout_width="271dp"
                 android:gravity="center"
                 android:layout_height="wrap_content"
-                android:text="Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif v "
+                android:text="At our remodeled community, we empower agricultural projects and dreams. Find funding opportunities, investment options, and support worthy endeavors. Unite for a positive impact on the future of agriculture! "
                 android:textColor="@color/black" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
