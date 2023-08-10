@@ -28,7 +28,7 @@ class SignIn : AppCompatActivity() {
         val userNameTv = findViewById<EditText>(R.id.nameSignInET)
         val emailTv = findViewById<EditText>(R.id.emailSignInET)
         val passowrdTv = findViewById<EditText>(R.id.passowrdSigninTV)
-        val signin = findViewById<Button>(R.id.SignInBtn)
+        val signin = findViewById<FrameLayout>(R.id.SignInBtn)
         val toSignUp = findViewById<TextView>(R.id.SignUpBtnTV)
 
         toSignUp.setOnClickListener(){
@@ -37,6 +37,8 @@ class SignIn : AppCompatActivity() {
         }
 
         signin.setOnClickListener(){
+            findViewById<TextView>(R.id.signInTV).visibility = View.GONE
+            findViewById<ProgressBar>(R.id.progressBar).visibility = View.VISIBLE
             val name = userNameTv.text.toString()
             val email = emailTv.text.toString()
             val password = passowrdTv.text.toString()
@@ -54,7 +56,8 @@ class SignIn : AppCompatActivity() {
                     myDialog.dismiss()
                 }
 
-
+                findViewById<TextView>(R.id.signInTV).visibility = View.VISIBLE
+                findViewById<ProgressBar>(R.id.progressBar).visibility = View.GONE
 
 
             }else {
@@ -78,7 +81,8 @@ class SignIn : AppCompatActivity() {
                             startActivity(Intent(this, MainActivity::class.java))
                             finish()
                         }
-
+                        findViewById<TextView>(R.id.signInTV).visibility = View.VISIBLE
+                        findViewById<ProgressBar>(R.id.progressBar).visibility = View.GONE
 
                     }
                 }

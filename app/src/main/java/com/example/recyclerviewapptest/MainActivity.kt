@@ -29,10 +29,19 @@ class MainActivity : AppCompatActivity() {
             R.id.miSearch -> replaceFragment(SearchFrag())
             R.id.miHome -> replaceFragment(homeFrag())
             R.id.miUser -> replaceFragment(UserFrag())
-            R.id.miShopping -> replaceFragment(ShopFrag())
+            R.id.miShopping -> {replaceFragment(ShopFrag())
+                findViewById<BottomNavigationView>(R.id.btmNavBar).getOrCreateBadge(R.id.miShopping).apply {
+                    isVisible= false
+                }
+            }
           else -> {}
         }
            true
+        }
+
+        findViewById<BottomNavigationView>(R.id.btmNavBar).getOrCreateBadge(R.id.miShopping).apply {
+            number = 7
+            isVisible= true
         }
 findViewById<FloatingActionButton>(R.id.fab).setOnClickListener(){
 //    Toast.makeText(this, "Floating action button clicked", Toast.LENGTH_SHORT).show()

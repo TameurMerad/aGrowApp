@@ -7,10 +7,7 @@ import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 import com.google.firebase.auth.FirebaseAuth
 
 class SignUp : AppCompatActivity() {
@@ -26,13 +23,15 @@ class SignUp : AppCompatActivity() {
 
         val emailLogin = findViewById<EditText>(R.id.emailLoginET)
         val passwordLogin = findViewById<EditText>(R.id.passowrdLoginTV)
-        val loginBtn = findViewById<Button>(R.id.loginBtn)
+        val loginBtn = findViewById<FrameLayout>(R.id.loginBtn)
 
         findViewById<TextView>(R.id.registerBtnTV).setOnClickListener(){
             startActivity(Intent(this, SignIn::class.java))
             finish()
         }
         loginBtn.setOnClickListener(){
+            findViewById<TextView>(R.id.signInTV).visibility = View.GONE
+            findViewById<ProgressBar>(R.id.progressBar).visibility = View.VISIBLE
             val email = emailLogin.text.toString()
             val passowrd = passwordLogin.text.toString()
             if (email.isEmpty()||passowrd.isEmpty()) {
@@ -48,7 +47,8 @@ class SignUp : AppCompatActivity() {
                 dialogBinding.findViewById<Button>(R.id.okBTN).setOnClickListener(){
                     myDialog.dismiss()
                 }
-
+                findViewById<TextView>(R.id.signInTV).visibility = View.VISIBLE
+                findViewById<ProgressBar>(R.id.progressBar).visibility = View.GONE
 
             }else {
                 firebaseAuth.signInWithEmailAndPassword(email , passowrd).addOnCompleteListener{
@@ -58,6 +58,8 @@ class SignUp : AppCompatActivity() {
 //                        Toast.makeText(this, "Bsahtk you're in", Toast.LENGTH_SHORT).show()
                     } else{
 //                        Toast.makeText(this, "there is a problem", Toast.LENGTH_SHORT).show()
+                        findViewById<TextView>(R.id.signInTV).visibility = View.VISIBLE
+                        findViewById<ProgressBar>(R.id.progressBar).visibility = View.GONE
                         val dialogBinding = layoutInflater.inflate(R.layout.sign_in_popup, null)
                         val myDialog = Dialog(this)
                         myDialog.setContentView(dialogBinding)

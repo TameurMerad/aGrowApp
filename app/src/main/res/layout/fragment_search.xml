@@ -298,7 +298,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginStart="10dp"
-                android:layout_marginBottom="40dp"
+                android:layout_marginBottom="70dp"
                 app:contentPadding="15dp"
                 app:cardElevation="15dp"
                 android:backgroundTint="@color/greenOne"

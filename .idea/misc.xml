@@ -19,6 +19,7 @@
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/post_buttons.xml" value="0.245" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/profil_btns.xml" value="0.2445" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/profil_btns_selected.xml" value="0.2445" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/profil_pib_roundedbg.xml" value="0.157" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/ripple_effect.xml" value="0.2445" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/search_select.xml" value="0.287" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/drawable/shopping_select.xml" value="0.287" />
@@ -43,12 +44,13 @@
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_sec.xml" value="0.346875" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_shop.xml" value="0.346875" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_third.xml" value="0.346875" />
-        <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_user.xml" value="0.346875" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/fragment_user.xml" value="0.33" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/home_fragment.xml" value="0.3458333333333333" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/list_item.xml" value="0.34270833333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/no_empty_popup.xml" value="0.284737067122702" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/layout/sign_in_popup.xml" value="0.28388200085506626" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/menu/btm_nav_bar.xml" value="0.3458333333333333" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/RecyclerViewAppTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1495" />
       </map>
     </option>
   </component>

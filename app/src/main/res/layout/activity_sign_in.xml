@@ -140,17 +140,34 @@
                 android:textSize="14dp" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <android.widget.Button
+        <FrameLayout
             android:id="@+id/SignInBtn"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginStart="18dp"
             android:layout_marginTop="25dp"
             android:layout_marginEnd="18dp"
-            android:background="@drawable/login_btn_bg"
-            android:backgroundTint="@color/greenTwo"
-            android:text="Sign IN"
-            android:textColor="@color/white" />
+            android:background="@drawable/login_btn_bg">
+            <TextView
+                android:id="@+id/signInTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminateTint="@color/white"
+                android:visibility="gone"
+                />
+
+        </FrameLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -172,10 +189,10 @@
                 android:id="@+id/SignUpBtnTV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_marginStart="8dp"
                 android:text="Sign Up"
                 android:textColor="@color/greenThree"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
