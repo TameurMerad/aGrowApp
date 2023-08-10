@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Azouaou@estin.dz"
+            android:text="t_merad@estin.dz"
             android:textStyle="bold"
             android:textSize="20dp"
             android:textColor="@color/black"/>
@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="+213 606060581"
+            android:text="+213 666666666"
             android:textStyle="bold"
             android:textSize="20dp"
             android:textColor="@color/black"/>
@@ -73,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Azazga tizi ouzou"
+            android:text="Amizour"
             android:textStyle="bold"
             android:textSize="20dp"
             android:textColor="@color/black"/>

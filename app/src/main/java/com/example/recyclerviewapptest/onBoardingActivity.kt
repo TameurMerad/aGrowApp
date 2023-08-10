@@ -12,6 +12,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.viewpager.widget.ViewPager
+import com.afollestad.viewpagerdots.DotsIndicator
 
 class onBoardingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,9 +23,12 @@ class onBoardingActivity : AppCompatActivity() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
 
 
-        findViewById<ViewPager>(R.id.viewPager).adapter = ViewPagerAdapter(supportFragmentManager)
+
         val vPager = findViewById<ViewPager>(R.id.viewPager)
         val nextB =findViewById<Button>(R.id.button)
+        val dots = findViewById<DotsIndicator>(R.id.dots)
+        vPager.adapter = ViewPagerAdapter(supportFragmentManager)
+        dots.attachViewPager(vPager)
 
         nextB.setOnClickListener() {
             if (vPager.currentItem + 1 < 2){

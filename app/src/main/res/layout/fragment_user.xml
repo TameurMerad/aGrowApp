@@ -32,9 +32,8 @@
                 android:id="@+id/profilPic"
                 android:layout_width="145dp"
                 android:layout_height="145dp"
-                android:src="@drawable/pic2"
+                android:src="@drawable/tameur_pic"
                 android:layout_gravity="center"
-                android:background="@drawable/profil_pib_roundedbg"
                 />
                 <ImageView
                     android:id="@+id/profilPicChange"
