@@ -53,7 +53,7 @@ How to Run the App :
 
 
 
-Clone this repository: git clone https://github.com/yourusername/agrow-mobile-app.git
+Clone this repository: git clone https://github.com/TameurMerad/aGrowApp.git
 
 
 Open the project in Android Studio.
