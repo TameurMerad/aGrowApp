@@ -42,3 +42,10 @@ Let's continue to nurture innovation and empower the agricultural community toge
 ## Screenshots
 
 [Watch the Video](https://youtube.com/shorts/EMAIhuYwzTU)
+
+## Download APK
+
+You can download the APK directly by clicking the link below:
+- [Download APK](https://drive.google.com/uc?export=download&id=1pTQbC8r-soxILEiheu878NOR0SKy-_K9)
+
+**Note:** Depending on your browser, you might need to right-click the link and choose "Save link as..." to start the download.
