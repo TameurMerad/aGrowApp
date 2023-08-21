@@ -41,7 +41,7 @@ Let's continue to nurture innovation and empower the agricultural community toge
 
 ## Screenshots
 
-[Watch the Video](https://youtube.com/shorts/EMAIhuYwzTU)
+- [Watch the Video](https://youtube.com/shorts/EMAIhuYwzTU)
 
 ## Download APK
 
